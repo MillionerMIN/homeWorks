@@ -1,0 +1,46 @@
+.container {
+   width: 400px;
+}
+
+.btn {
+   margin: 4px;
+   width: 91px;
+   height: 32px;
+   border: none;
+   color: #0E6795;
+   background: linear-gradient(180deg, #E9F0F8 0%, #E9F0F8 100%);
+   border-radius: 4px;
+}
+
+.btn:hover {
+   background: linear-gradient(180deg, #0E6795 0%, #0E6795 100%);
+   color: #E9F0F8;
+   transform: scale(1.1);
+}
+
+.wrapper {
+   padding: 4px;
+   display: flex;
+   justify-content: space-between;
+   color: #202020;
+   text-align: center;
+}
+
+.item {
+   color: #E9F0F8
+}
+
+.delete {
+   width: 24px;
+   height: 24px;
+   border: none;
+   background: none
+}
+
+.delete:hover {
+   transform: scale(1.1)
+}
+
+.delete img {
+   width: 100%;
+}
