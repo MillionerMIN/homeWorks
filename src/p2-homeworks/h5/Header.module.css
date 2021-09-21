@@ -1,0 +1,44 @@
+.container {
+  margin: 20px;
+  transition: left ease 0.3s;
+  left: -350px;
+}
+
+.container_none {
+  display: none;
+  left: 0px;
+}
+
+.link {
+  padding: 10px 10px;
+  color: green;
+  text-decoration: none;
+}
+
+.active {
+  font-weight: bold;
+  color: #3390c1;
+}
+
+
+.turn {
+  width: 30px;
+  height: 30px;
+  color: #3390c1;
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+}
+
+.turn_180 {
+  width: 30px;
+  height: 30px;
+  color: #3390c1;
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+}
