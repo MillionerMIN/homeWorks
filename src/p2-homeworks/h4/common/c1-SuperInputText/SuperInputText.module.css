@@ -1,12 +1,30 @@
 .superInput {
+    height: 30px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 2px solid #3390c1;
+    background: #fff;
+    color: #0E6795;
+}
 
+.superInput:hover {
+    border: 3px solid #3390c1;
 }
 
 .errorInput {
-    border: 3px solid lime;
-    background: red;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid #e22822;
+    background: #fff;
+    color: #0E6795;
+}
+
+.errorInput:hover {
+    border: 3px solid #e22822;
 }
 
 .error {
-    color: red;
+    font-size: 0.8em;
+    text-align: start;
+    color: #e22822;
 }

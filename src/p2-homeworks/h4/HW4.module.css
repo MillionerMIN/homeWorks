@@ -1,13 +1,25 @@
 .blue {
-    border-bottom: 5px solid blue;
+    color: #fff;
+    background: skyblue;
+    border-bottom: 5px solid #3390c1;
+}
+.someBtn {
+    border: 2px solid plum;
+    color: plum;
+}
+
+.someBtn:hover {
+    background: plum;
+    color: #fff;
 }
 
 .column {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
 }
 
 .testSpanError {
-    color: blue;
+    color: #3390c1;
 }
+
